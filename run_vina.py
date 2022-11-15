@@ -5,6 +5,7 @@
 
 import os
 from vina import Vina 
+import json
 import pandas as pd
 from datetime import datetime
 
@@ -45,73 +46,81 @@ Fecha = hoy.strftime("%d/%m/%Y %H:%M:%S")
 Ligandos_carpeta= os.listdir(Ligandos) 
 Ligandos_carpeta.sort()
 print(f"got here -> {Ligandos_carpeta}")
-
+out_dict = {ligando:[] for ligando in Ligandos_carpeta}
 #%% ESCRITURA DE README FILE  
-for Receptor in Receptores:
-	print(f"Procesando -> {Receptor} Chechu :)")
-	readme_file = os.path.join(Outputs, f"readme_file_{Receptor.split('/')[1]}")
-	with open(readme_file,"w") as f:
-		f.write("PROTOCOLO DE DOCKING:" + "\n")
-		f.write("Fecha:" + Fecha + "\n" + "\n")
-		f.write("Observaciones:" + Observaciones + "\n" + "\n")
-		f.write("Configuración:" + "\n")
-		f.write("Receptor:" + Receptor + "\n")
-		f.write("Ligandos:" + Ligandos + "\n")
-		f.write("Grilla:  CENTRO " + str(Center) + "  TAMAÑO " + str(Box_size) + "\n" + "\n")
-		f.write("Parámetros usados:" + "\n")
-		f.write("Campo de fuerzas:" + Campo_fuerzas + "\n")
-		f.write("Exhaustiveness:" + str(Exhaustiveness) + "\n")
-		f.write("Número de poses:" + str(N_poses) + "\n" + "\n")
-		f.write("Outputs:" + Outputs + "\n")
-		f.write("Archivo output:" + output_file + "\n")
-		f.write("Archivo readme:" + readme_file + "\n")
-	#%% CORRIDA Y ESCRITURA DE OUTPUTS
+for rep in range(100):
+	output_file = Outputs +f'/output_file_rep_{rep}.txt'
 
-	v = Vina(sf_name= Campo_fuerzas)    #Crea el objeto Vina. sf_name especifica el campo de fuerzas que va a usar.
-				
-	v.set_receptor(Receptor)    #Carga del archivo del receptor. 
-		#v.set_receptor(Receptor_rigid , Receptor_flex)   #PARA DOCKING CON RESIDUOS FLEXIBLES
-				
-	v.compute_vina_maps(center= Center,box_size=Box_size) #Computar los affinity maps para cada ligando
+	for Receptor in Receptores:
+		print(f"Procesando -> {Receptor} rep {rep} Chechu :)")
+		readme_file = os.path.join(Outputs, f"readme_file_{Receptor.split('/')[1]}")
+		with open(readme_file,"w") as f:
+			f.write("PROTOCOLO DE DOCKING:" + "\n")
+			f.write("Fecha:" + Fecha + "\n" + "\n")
+			f.write("Observaciones:" + Observaciones + "\n" + "\n")
+			f.write("Configuración:" + "\n")
+			f.write("Receptor:" + Receptor + "\n")
+			f.write("Ligandos:" + Ligandos + "\n")
+			f.write("Grilla:  CENTRO " + str(Center) + "  TAMAÑO " + str(Box_size) + "\n" + "\n")
+			f.write("Parámetros usados:" + "\n")
+			f.write("Campo de fuerzas:" + Campo_fuerzas + "\n")
+			f.write("Exhaustiveness:" + str(Exhaustiveness) + "\n")
+			f.write("Número de poses:" + str(N_poses) + "\n" + "\n")
+			f.write("Outputs:" + Outputs + "\n")
+			f.write("Archivo output:" + output_file + "\n")
+			f.write("Archivo readme:" + readme_file + "\n")
+		#%% CORRIDA Y ESCRITURA DE OUTPUTS
 
-	output = []
+		v = Vina(sf_name= Campo_fuerzas)    #Crea el objeto Vina. sf_name especifica el campo de fuerzas que va a usar.
+		print(f"Cecilia vas a ver que tengo razon porque el numero es el mismo para todos los ligandos {v._seed}")
+		v.set_receptor(Receptor)    #Carga del archivo del receptor. 
+			#v.set_receptor(Receptor_rigid , Receptor_flex)   #PARA DOCKING CON RESIDUOS FLEXIBLES
+					
+		v.compute_vina_maps(center= Center,box_size=Box_size) #Computar los affinity maps para cada ligando
 
-	with open(output_file,"a") as f:
-		f.write("Ligando,TOP_SCORE"+"\n")
+		output = []
 
-	for ligando in Ligandos_carpeta:
+		with open(output_file,"a") as f:
+			f.write("Ligando,TOP_SCORE"+"\n")
 
-		print(ligando)
-		try:
-			if ligando.endswith(".pdbqt"): 
-				# Selección de ligandos de la carpeta especificada
-				v.set_ligand_from_file(Ligandos+"/"+ligando)
+		for ligando in Ligandos_carpeta:
 		
-				# Calculo de Scorear la pose DESCOMENTAR PARA RESCOREAR
-				#energy = v.score()
-				#print('Score before minimization: %.3f (kcal/mol)' % energy[0])
-
-				# Minimización de la pose DESCOMENTAR PARA RESCOREAR
-				#energy_minimized = v.optimize()
-				#print('Score after minimization : %.3f (kcal/mol)' % energy_minimized[0])
-				#v.write_pose(pdbqt_filename= Outputs+"/out_"+ligando, overwrite=True)
-
-				# Docking del ligando
-				v.dock(exhaustiveness= Exhaustiveness, n_poses= N_poses)
-				# Escritura la pose
-				v.write_poses(pdbqt_filename= Outputs+"/out_"+ligando, n_poses=9, overwrite=True)
-				# Escritura output pose-score
-				energies = v.energies()
-				score = energies[0,0]
-				#output.append(score)
-				print ("docked...")
 		
-				with open(output_file,"a") as f:
-					print("writing output...")
-					f.write(ligando + ","+ str(score) +"\n")
-					print("done...")
-		except:
-			print ("Error in ligand")
-			with open(readme_file,"a") as f:
-				f.write("Error en el ligando"+ligando+ "\n")
-			pass
+
+			print(ligando)
+			try:
+				if ligando.endswith(".pdbqt"): 
+					# Selección de ligandos de la carpeta especificada
+					v.set_ligand_from_file(Ligandos+"/"+ligando)
+			
+					# Calculo de Scorear la pose DESCOMENTAR PARA RESCOREAR
+					#energy = v.score()
+					#print('Score before minimization: %.3f (kcal/mol)' % energy[0])
+
+					# Minimización de la pose DESCOMENTAR PARA RESCOREAR
+					#energy_minimized = v.optimize()
+					#print('Score after minimization : %.3f (kcal/mol)' % energy_minimized[0])
+					#v.write_pose(pdbqt_filename= Outputs+"/out_"+ligando, overwrite=True)
+
+					# Docking del ligando
+					v.dock(exhaustiveness= Exhaustiveness, n_poses= N_poses)
+					# Escritura la pose
+					v.write_poses(pdbqt_filename= Outputs+"/out_"+f"repe_{rep}+ligando  ", n_poses=9, overwrite=True)
+					# Escritura output pose-score
+					energies = v.energies()
+					score = energies[0,0]
+					#output.append(score)
+					print ("docked...")
+			
+					with open(output_file,"a") as f:
+						print("writing output...")
+						f.write(ligando + ","+ str(score) +"\n")
+						print("done...")
+					out_dict[ligando].append(score)
+			except:
+				print ("Error in ligand")
+				with open(readme_file,"a") as f:
+					f.write("Error en el ligando"+ligando+ "\n")
+				pass
+with open("tuki.json", "w") as file:
+	json.dump(out_dict,file)
