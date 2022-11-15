@@ -1,0 +1,2 @@
+Ligando,TOP_SCORE
+UMP_6N1S.pdbqt,-6.622

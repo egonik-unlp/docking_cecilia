@@ -1,0 +1,468 @@
+MODEL 1
+REMARK VINA RESULT:    -6.622      0.000      0.000
+REMARK INTER + INTRA:          -9.105
+REMARK INTER:                  -8.230
+REMARK INTRA:                  -0.874
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      23.580  84.986 -33.052  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      23.683  84.055 -31.854  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      24.683  83.036 -32.376  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      24.237  82.873 -33.824  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      23.631  84.134 -34.190  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      22.341  85.793 -33.137  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      22.401  87.003 -33.802  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      21.214  87.688 -33.857  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      19.998  87.289 -33.340  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      20.012  86.021 -32.676  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      21.159  85.326 -32.607  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      23.428  87.443 -34.300  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      19.017  88.015 -33.482  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      21.232  88.582 -34.328  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      26.011  83.546 -32.349  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      26.082  84.288 -32.954  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      23.258  81.751 -34.065  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      22.144  82.264 -34.836  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      20.651  81.870 -34.393  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      19.755  82.967 -34.929  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      20.384  80.524 -35.032  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      20.681  81.815 -32.877  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.376      4.404      6.723
+REMARK INTER + INTRA:          -8.795
+REMARK INTER:                  -8.136
+REMARK INTRA:                  -0.659
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      18.516  81.687 -33.762  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      18.040  83.024 -33.215  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      18.836  83.982 -34.087  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      20.186  83.279 -34.174  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      19.901  81.868 -34.035  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      18.375  80.530 -32.848  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      18.172  79.283 -33.409  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      18.069  78.256 -32.504  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      18.160  78.345 -31.130  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      18.382  79.666 -30.625  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      18.490  80.691 -31.485  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      18.082  79.097 -34.614  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      18.056  77.325 -30.453  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      17.908  77.335 -32.886  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      18.278  84.087 -35.393  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      18.876  83.691 -36.030  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      21.189  83.698 -33.130  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      22.518  83.602 -33.697  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      23.481  82.410 -33.213  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      24.827  83.047 -32.939  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      22.829  81.847 -31.968  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      23.514  81.425 -34.367  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.309      3.628      5.222
+REMARK INTER + INTRA:          -8.710
+REMARK INTER:                  -8.091
+REMARK INTRA:                  -0.619
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      19.982  84.692 -30.568  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      21.026  83.920 -29.775  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      22.096  84.987 -29.610  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      22.075  85.667 -30.974  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      20.726  85.505 -31.469  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      19.039  83.871 -31.362  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      17.881  83.437 -30.744  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      17.046  82.697 -31.543  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      17.239  82.367 -32.869  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      18.455  82.862 -33.443  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      19.291  83.591 -32.686  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      17.613  83.679 -29.575  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      16.388  81.703 -33.454  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      16.198  82.356 -31.114  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      21.741  85.934 -28.608  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      20.802  85.863 -28.418  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      23.054  85.111 -31.976  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      22.439  85.134 -33.288  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      23.266  85.754 -34.518  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      24.603  85.043 -34.521  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      22.436  85.458 -35.749  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      23.382  87.237 -34.220  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.273      3.521      4.808
+REMARK INTER + INTRA:          -8.664
+REMARK INTER:                  -8.010
+REMARK INTRA:                  -0.654
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      19.976  84.664 -30.645  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      20.899  83.895 -29.713  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      22.056  84.875 -29.592  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      22.170  85.401 -31.018  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      20.840  85.305 -31.577  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      19.003  83.848 -31.406  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      17.845  83.454 -30.762  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      16.982  82.716 -31.533  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      17.147  82.353 -32.854  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      18.365  82.807 -33.456  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      19.228  83.533 -32.728  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      17.600  83.727 -29.596  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      16.272  81.696 -33.411  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      16.132  82.404 -31.083  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      21.738  85.953 -28.719  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      22.533  86.241 -28.264  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      23.143  84.656 -31.895  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      22.521  84.413 -33.180  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      22.947  83.107 -34.012  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      22.387  83.300 -35.406  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      24.460  83.086 -33.981  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      22.319  81.937 -33.276  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.166      3.051      4.329
+REMARK INTER + INTRA:          -8.529
+REMARK INTER:                  -7.839
+REMARK INTRA:                  -0.690
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      22.841  83.417 -31.513  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      23.193  82.344 -32.531  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      24.413  82.970 -33.187  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      24.005  84.436 -33.274  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      23.093  84.653 -32.173  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      21.436  83.425 -31.044  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      21.178  83.921 -29.779  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      19.855  83.914 -29.419  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      18.786  83.486 -30.180  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      19.130  82.997 -31.481  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      20.417  82.993 -31.864  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      22.053  84.329 -29.029  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      17.651  83.554 -29.715  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      19.639  84.259 -28.494  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      25.568  82.853 -32.363  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      26.277  83.389 -32.726  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      23.341  84.835 -34.567  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      22.085  85.489 -34.264  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      21.880  87.017 -34.713  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      21.405  86.968 -36.150  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      20.841  87.579 -33.766  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      23.242  87.669 -34.559  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.148      2.062      2.588
+REMARK INTER + INTRA:          -8.507
+REMARK INTER:                  -7.829
+REMARK INTRA:                  -0.678
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      22.787  84.073 -34.156  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      22.143  83.540 -32.885  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      22.324  82.043 -33.086  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      22.040  81.891 -34.576  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      22.415  83.152 -35.175  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      22.357  85.425 -34.578  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      23.237  86.474 -34.385  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      22.780  87.694 -34.815  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      21.568  87.964 -35.418  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      20.716  86.826 -35.594  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      21.136  85.619 -35.185  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      24.336  86.340 -33.866  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      21.308  89.115 -35.758  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      23.398  88.480 -34.676  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      23.662  81.638 -32.819  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      24.094  81.397 -33.642  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      20.608  81.571 -34.921  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      19.896  81.250 -33.701  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      18.541  82.044 -33.365  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      17.415  81.053 -33.576  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      18.679  82.484 -31.924  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      18.500  83.205 -34.342  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.099      2.746      4.577
+REMARK INTER + INTRA:          -8.445
+REMARK INTER:                  -7.588
+REMARK INTRA:                  -0.857
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      22.675  83.803 -33.575  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      23.344  83.923 -34.935  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      24.464  84.898 -34.611  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      23.768  85.874 -33.670  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      22.726  85.112 -33.018  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      21.260  83.364 -33.588  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      20.815  82.586 -32.536  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      19.491  82.232 -32.605  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      18.585  82.580 -33.587  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      19.118  83.396 -34.636  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      20.409  83.761 -34.595  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      21.534  82.228 -31.615  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      17.424  82.189 -33.500  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      19.141  81.652 -31.855  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      25.530  84.258 -33.918  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      26.209  84.903 -33.708  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      23.167  87.084 -34.340  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      21.838  87.300 -33.805  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      20.639  87.626 -34.822  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      20.636  89.131 -34.993  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      20.981  86.887 -36.098  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      19.384  87.102 -34.148  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.082      2.836      4.625
+REMARK INTER + INTRA:          -8.423
+REMARK INTER:                  -7.594
+REMARK INTRA:                  -0.829
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      22.901  84.210 -32.923  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      22.366  85.633 -32.879  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      22.909  86.095 -31.536  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      22.717  84.851 -30.676  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      22.794  83.731 -31.587  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      22.170  83.273 -33.807  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      22.825  82.128 -34.219  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      22.083  81.299 -35.021  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      20.778  81.485 -35.431  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      20.163  82.688 -34.955  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      20.864  83.519 -34.167  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      23.979  81.866 -33.907  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      20.245  80.640 -36.145  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      22.541  80.459 -35.347  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      24.297  86.403 -31.612  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      24.430  87.334 -31.416  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      21.417  84.799 -29.916  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      20.819  83.493 -30.107  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      19.305  83.406 -30.638  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      19.204  82.098 -31.394  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      18.441  83.439 -29.395  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      19.118  84.622 -31.526  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.008      2.340      4.392
+REMARK INTER + INTRA:          -8.330
+REMARK INTER:                  -7.589
+REMARK INTRA:                  -0.741
+REMARK UNBOUND:                -0.741
+REMARK  Name = UMP_6N1S.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C3'_11  and  O3'_13
+REMARK    3  A    between atoms: C4'_12  and  C5'_15
+REMARK    4  A    between atoms: C5'_15  and  O5'_16
+REMARK    5  A    between atoms: O5'_16  and  P_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' UMP A 701      21.837  84.016 -31.567  0.00  0.00    +0.000 C 
+ATOM      2  C2' UMP A 701      20.636  84.906 -31.847  0.00  0.00    +0.000 C 
+ATOM      3  C3' UMP A 701      19.540  84.130 -31.134  0.00  0.00    +0.000 C 
+ATOM      4  C4' UMP A 701      19.908  82.689 -31.469  0.00  0.00    +0.000 C 
+ATOM      5  O4' UMP A 701      21.342  82.685 -31.653  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP A 701      22.971  84.146 -32.511  0.00  0.00    +0.000 N 
+ATOM      7  C2  UMP A 701      24.158  83.516 -32.189  0.00  0.00    +0.000 A 
+ATOM      8  N3  UMP A 701      25.158  83.665 -33.117  0.00  0.00    +0.000 N 
+ATOM      9  C4  UMP A 701      25.089  84.351 -34.312  0.00  0.00    +0.000 A 
+ATOM     10  C5  UMP A 701      23.825  84.967 -34.582  0.00  0.00    +0.000 A 
+ATOM     11  C6  UMP A 701      22.826  84.838 -33.694  0.00  0.00    +0.000 A 
+ATOM     12  O2  UMP A 701      24.320  82.879 -31.158  0.00  0.00    +0.000 OA
+ATOM     13  O4  UMP A 701      26.075  84.383 -35.045  0.00  0.00    +0.000 OA
+ATOM     14  H3  UMP A 701      26.041  83.224 -32.901  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3' UMP A 701      19.604  84.314 -29.724  0.00  0.00    +0.000 OA
+ATOM     16 HO3' UMP A 701      19.957  83.521 -29.312  0.00  0.00    +0.000 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5' UMP A 701      19.237  82.132 -32.699  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O5' UMP A 701      20.136  81.192 -33.334  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  P   UMP A 701      20.756  81.563 -34.769  0.00  0.00    +0.000 P 
+ATOM     20  OP1 UMP A 701      20.189  80.550 -35.742  0.00  0.00    +0.000 OA
+ATOM     21  OP2 UMP A 701      20.294  82.976 -35.053  0.00  0.00    +0.000 OA
+ATOM     22  OP3 UMP A 701      22.260  81.449 -34.602  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5
+ENDMDL
