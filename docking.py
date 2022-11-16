@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Author: Eduardo Gonik <gonik@quimica.unlp.edu.ar>
+
+
 import json
 from vina import Vina
 import pandas as pd
@@ -60,8 +63,11 @@ def define_protocol(**kwargs):
 	
 	return protocol
 
-def perform_docking_protocol(protocol : dict, )
+def perform_docking_protocol(protocol : dict, ):
+	return None
 
+def write_output_file():
+	return None
 
 PROTOCOL = define_protocol(
 	date = datetime.now().strftime("%d-%m-%y"),
