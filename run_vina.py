@@ -48,7 +48,7 @@ Ligandos_carpeta.sort()
 print(f"got here -> {Ligandos_carpeta}")
 out_dict = {ligando:[] for ligando in Ligandos_carpeta}
 #%% ESCRITURA DE README FILE  
-for rep in range(100):
+for rep in range(5):
 	output_file = Outputs +f'/output_file_rep_{rep}.txt'
 
 	for Receptor in Receptores:

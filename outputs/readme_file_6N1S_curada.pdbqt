@@ -1,5 +1,5 @@
 PROTOCOLO DE DOCKING:
-Fecha:15/11/2022 19:33:50
+Fecha:20/11/2022 13:24:53
 
 Observaciones:Redocking cristal
 
@@ -14,5 +14,5 @@ Exhaustiveness:32
 Número de poses:9
 
 Outputs:./outputs
-Archivo output:./outputs/output_file.txt
+Archivo output:./outputs/output_file_rep_4.txt
 Archivo readme:./outputs/readme_file_6N1S_curada.pdbqt
