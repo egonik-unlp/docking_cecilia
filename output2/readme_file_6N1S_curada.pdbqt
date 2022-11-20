@@ -1,0 +1,18 @@
+PROTOCOLO DE DOCKING:
+Fecha:20/11/2022 17:45:39
+
+Observaciones:Redocking cristal
+
+Configuración:
+Receptor:pdbqts/6N1S_curada.pdbqt
+Ligandos:./ligandos
+Grilla:  CENTRO [19.828, 77.917, -35.364]  TAMAÑO [22.5, 22.5, 22.5]
+
+Parámetros usados:
+Campo de fuerzas:vina
+Exhaustiveness:32
+Número de poses:9
+
+Outputs:./output2
+Archivo output:./output2/output_file_rep_4.txt
+Archivo readme:./output2/readme_file_6N1S_curada.pdbqt

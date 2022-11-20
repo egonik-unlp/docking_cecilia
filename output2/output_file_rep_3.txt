@@ -1,0 +1,3 @@
+Ligando,TOP_SCORE
+UMP_6N1S.pdbqt,-6.52
+folico_opt.pdbqt,-8.37
